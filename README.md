@@ -30,14 +30,14 @@ Hybrid front-end/backend boilerplate with SASS and Live Reload. Works well for s
 ## Directory Structure
 1. node_modules (don't touch this)
 
-2. scss (style files)
-	1. 01-components
-	2. 02-partials
-	3. 03-pages
-	4. 04-base
+2. [scss](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss) (style files)
+	1. [01-components](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss/01-components)
+	2. [02-partials](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss/02-partials)
+	3. [03-pages](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss/03-pages)
+	4. [04-base](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss/04-base)
 	5. main.scss // Import your SASS files here
 
-3. www (PHP filess)
+3. www (PHP/HTML files)
 	1. css (don't touch this, use scss directory instead)
 	2. partials (your PHP partial files, for ex. header.php, footer.php)
 	3. index.php (your home page)
