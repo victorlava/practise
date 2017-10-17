@@ -35,12 +35,36 @@ Hybrid front-end/backend boilerplate with SASS and Live Reload. Works well for s
 	2. [02-partials](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss/02-partials)
 	3. [03-pages](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss/03-pages)
 	4. [04-base](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss/04-base)
-	5. style.scss // Import your SASS files here
+	5. style.scss // Import your SASS modules, for ex. _nav.scss
 
 3. www (PHP files)
-	1. css (don't touch this, use scss directory instead)
-	2. partials (your PHP partial files, for ex. head.php, navigation.php, footer.php)
-	3. index.php (your home page)
-	4. contact.php
-	5. about.php
-	6. 404.php (error page)
+	* partials (your PHP partial files, for ex. head.php, navigation.php, footer.php)
+	* index.php
+	* contact.php
+	* about.php
+	* 404.php 
+
+
+# License
+## Credits
+ Borrowed some ideas from [Gergely Kovács](https://github.com/ggkovacs/architecture-sass-project).
+ 
+## MIT
+Copyright (c) <2017> <Victor Lava (info@victorlava.com)>
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
