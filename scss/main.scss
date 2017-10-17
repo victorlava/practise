@@ -6,12 +6,15 @@
           
 /* 02. Partials */
 @import "02-partials/footer";
-@import "02-partials/head";
+@import "02-partials/navigation";
 
 /* 03. Components */
 @import "03-components/tiny";
-@import "03-components/header";
+@import "03-components/heading";
+@import "03-components/section";
 
 /* 04. Pages */
 @import "04-pages/home";
+@import "04-pages/about";
 @import "04-pages/contact";
+@import "04-pages/404";
