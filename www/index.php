@@ -1,17 +1,7 @@
 <?php include('partials/head.php'); ?>
 
 <body id="home-page">
+<!-- start of #home-page -->
 
-	<header class="header header-default">
-		<h4>Lorem ipsum</h4>
-		<h3>Ready to get started?</h3>
-	</header>
-
-	<header class="header header-primary">
-		<h4>Lorem ipsum</h4>
-		<h3>Ready to get started?</h3>
-	</header>
-
-
-
+<!-- end of #home-page -->
 <?php include('partials/footer.php') ?>
