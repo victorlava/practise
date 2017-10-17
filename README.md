@@ -34,17 +34,17 @@ Hybrid front-end/backend boilerplate with SASS and Live Reload. Works well for s
 3. Open http://localhost:9000 on your browser
 
 ## Directory Structure
-1. node_modules **(don't touch this)**
+1. node_modules *(don't touch this)*
 
-2. [scss](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss) (style files)
+2. [scss](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss) *(style files)*
 	1. [01-components](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss/01-components)
 	2. [02-partials](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss/02-partials)
 	3. [03-pages](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss/03-pages)
 	4. [04-base](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss/04-base)
-	5. style.scss // Import your SASS modules, for ex. _nav.scss
+	5. style.scss
 
-3. www (PHP files)
-	* partials **(your PHP partial files, for ex. head.php, footer.php)**
+3. www *(PHP files)*
+	* partials *(your PHP partial files, for ex. head.php, footer.php)*
 	* index.php
 	* contact.php
 	* about.php
@@ -52,8 +52,9 @@ Hybrid front-end/backend boilerplate with SASS and Live Reload. Works well for s
 
 
 # License
+## Victor Lava - [victorlava.com](http://victorlava.com)
 ## MIT (FREE)
-Copyright (c) <2017> <Victor Lava (info@victorlava.com)>
+Copyright (c) <2017> <Victor Lava>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
