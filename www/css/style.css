@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* Base
+The base directory contains styles that help start a project. The base 
+directory could contain the following type of SASS files 							*/
+@font-face {}.text-center {
+  text-align: center;
+}
+
+/* Partials
+The partials directory will probably contain the bulk of your SASS files. 
+A page may consist of multiple partials and should be styled individually. 
+These partials may include files like:
+	--Header 
+	--Footer
+	--Navigation 
+	--Content Block 												  				*/
+/* Components
+For smaller components, there is the components. 
+While partials/ and pages/ is kind of macro (defining the global wireframe), components/ 
+is more micro. It can contain all kinds of specific modules like a slider, a loader, 
+a widget, or anything along those lines. There are usually a lot of files in components/ 
+since your site is should be mostly composed of tiny modules.
+	--Media
+	--Carousel
+	--Section
+	--Accordion												  						*/
+/* Smaller components */
+.header.header-primary {
+  color: #FFF;
+}
+
+.header.header-default {
+  color: grey;
+}
+
+.header.header-default span {
+  color: red;
+}
+
+/* Pages 
+If you have page-specific styles, I think it’s cool to put them in a pages/ folder and in a 
+file named after the page. For example, it’s not uncommon to have very specific styles for 
+the home page, so you’d have a _home.scss file in pages/ dealing with this. 
+    --Home
+	--Article
+	--Blog
+	--Contact																		*/

@@ -1,0 +1,22 @@
+.lt-ie9{//IE9 Only Fix
+	.featured-services__services > div{
+		opacity:1 !important;
+		display:block !important;
+		left:0 !important;
+		top:0 !important;
+		position:relative !important;
+		padding:0 3em;
+		width:25%;	
+	}
+	.component__featured-services{
+		top: -70px;
+	}
+
+
+	.component__circle--first{
+		left: 7%;	
+		> div{
+			position:relative !important;width:100% !important;
+		}
+	}
+} 

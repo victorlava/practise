@@ -1,0 +1,15 @@
+.header {
+	
+	&.header-primary {
+		color: #FFF;
+	}
+
+	&.header-default {
+		color: $grey;
+
+		span {
+			color: $primary; 
+		}
+	}
+
+}
