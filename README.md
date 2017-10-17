@@ -1,12 +1,26 @@
-Hybrid front-end/backend boilerplate with **SASS** and **Live Reload**. Works well for simple websites with a little bit of **PHP**. Includes structured SASS.
-
-# Getting started
-
-## Features
+Hybrid front-end/backend boilerplate with **SASS** and **Live Reload**. Works well for simple websites with a little bit of **PHP**. Includes structured SASS with basic **OOCSS**.
+# Features
 * Grunt
 * SASS
 * Live Reload
 * PHP
+
+# Getting started
+
+## Directory Structure
+1. [scss](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss) *(style files)*
+	1. [01-components](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss/01-components)
+	2. [02-partials](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss/02-partials)
+	3. [03-pages](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss/03-pages)
+	4. [04-base](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss/04-base)
+	5. style.scss
+
+2. www *(PHP files)*
+	* partials *(your PHP partial files, for ex. head.php, footer.php)*
+	* index.php
+	* contact.php
+	* about.php
+	* 404.php 
 
 ## Install global dependencies
 1. [Node.js](https://nodejs.org/en/)
@@ -33,28 +47,28 @@ Hybrid front-end/backend boilerplate with **SASS** and **Live Reload**. Works we
 
 3. Open http://localhost:9000 on your browser
 
-## Directory Structure
-1. node_modules *(don't touch this)*
 
-2. [scss](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss) *(style files)*
-	1. [01-components](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss/01-components)
-	2. [02-partials](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss/02-partials)
-	3. [03-pages](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss/03-pages)
-	4. [04-base](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss/04-base)
-	5. style.scss
+## How to continue project
+1. Open terminal
+	1. Open the project
+		``` cd project_folder/www ```
+	2. Launch the PHP server
+		``` php -S localhost:9000 ```
 
-3. www *(PHP files)*
-	* partials *(your PHP partial files, for ex. head.php, footer.php)*
-	* index.php
-	* contact.php
-	* about.php
-	* 404.php 
+2. Open new terminal
+	1. Open the project 
+		``` cd project_folder/ ```
+	2. Launch the grunt watch task
+	   ``` grunt watch ```
 
 # Author
- Full-stack web developer from Europe - Victor Lava. Visit my portfolio here - [victorlava.com](http://victorlava.com)
+ Full-stack web developer from Europe - Victor Lava. 
+
+ Visit my website here - [victorlava.com](http://victorlava.com)
 
 # License
-## MIT (FREE)
+MIT 
+
 Copyright (c) <2017> <Victor Lava>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
