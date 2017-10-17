@@ -1,4 +1,4 @@
-Hybrid front-end/backend boilerplate with SASS and Live Reload. Works well for simple websites with a little bit of PHP. Includes structured SASS.
+Hybrid front-end/backend boilerplate with **SASS** and **Live Reload**. Works well for simple websites with a little bit of **PHP**. Includes structured SASS.
 
 # Getting started
 
@@ -50,9 +50,10 @@ Hybrid front-end/backend boilerplate with SASS and Live Reload. Works well for s
 	* about.php
 	* 404.php 
 
+# Author
+ Full-stack web developer from Europe - Victor Lava. Visit my portfolio here - [victorlava.com](http://victorlava.com)
 
 # License
-## Victor Lava - [victorlava.com](http://victorlava.com)
 ## MIT (FREE)
 Copyright (c) <2017> <Victor Lava>
 
