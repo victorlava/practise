@@ -17,18 +17,24 @@ Hybrid front-end/backend boilerplate with SASS and Live Reload. Works well for s
 ## How to start new project
 1. Open terminal
 	1. Clone or download this repository
-	2. cd project_folder/www
-	3. php -S localhost:9000 (launch PHP server)
+		``` git clone git@github.com:victor-lava/front-end-boilerplate.git ```
+	2. Open the project
+		``` cd project_folder/www ```
+	3. Launch the PHP server
+		``` php -S localhost:9000 ```
 
 2. Open new terminal
-	1. cd project_folder/
-	2. npm install
-	3. grunt watch
+	1. Open the project 
+		``` cd project_folder/ ```
+	2. Install the required node packages
+		``` npm install ```
+	3. Launch the grunt watch task
+	   ``` grunt watch ```
 
 3. Open http://localhost:9000 on your browser
 
 ## Directory Structure
-1. node_modules (don't touch this)
+1. node_modules **(don't touch this)**
 
 2. [scss](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss) (style files)
 	1. [01-components](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss/01-components)
@@ -38,7 +44,7 @@ Hybrid front-end/backend boilerplate with SASS and Live Reload. Works well for s
 	5. style.scss // Import your SASS modules, for ex. _nav.scss
 
 3. www (PHP files)
-	* partials (your PHP partial files, for ex. head.php, navigation.php, footer.php)
+	* partials **(your PHP partial files, for ex. head.php, footer.php)**
 	* index.php
 	* contact.php
 	* about.php
@@ -46,11 +52,9 @@ Hybrid front-end/backend boilerplate with SASS and Live Reload. Works well for s
 
 
 # License
-## Credits
- Borrowed some ideas from [Gergely Kovács](https://github.com/ggkovacs/architecture-sass-project).
- 
-## MIT
+## MIT (FREE)
 Copyright (c) <2017> <Victor Lava (info@victorlava.com)>
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -68,3 +72,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## Credits
+Borrowed some ideas from [Gergely Kovács](https://github.com/ggkovacs/architecture-sass-project).
