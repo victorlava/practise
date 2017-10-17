@@ -6,7 +6,7 @@ Front-end boilerplate. Works well for basic front-end projects.
 3. Open new terminal and repeat 1.
 4*. npm install (run this only if you are starting project for the first time)
 5. grunt watch (watches for file changes)
-6. Open http://localhost:9000/www on your browser and start working :)
+6. Open http://localhost:9000/www/index.php on your browser and start working :)
 
 
 # Requirements
