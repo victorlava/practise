@@ -17,13 +17,13 @@ Take a look a the directory structure below and then proceed with the instructio
 	5. style.scss
 2. js *(unminified JS files)*
 3. www *(PHP files)*
-	* css
-	* js *(minified JS files)*
-	* partials *(your PHP partial files, for ex. head.php, footer.php)*
-	* index.php
-	* contact.php
-	* about.php
-	* 404.php 
+	1. css
+	2. js *(minified JS files)*
+	3. partials *(your PHP partial files, for ex. head.php, footer.php)*
+	4. index.php
+	5. contact.php
+	6. about.php
+	7. 404.php 
 
 ## Install global dependencies
 1. [Node.js](https://nodejs.org/en/)
@@ -69,7 +69,7 @@ Take a look a the directory structure below and then proceed with the instructio
 		``` cd project_folder/www ```
 	2. Launch grunt production task
 		``` grunt production ```
-		
+
 # Author
  Full-stack web developer from Europe - Victor Lava. 
 
