@@ -6,6 +6,7 @@ Hybrid front-end/backend boilerplate with **SASS** and **Live Reload**. Works we
 * PHP
 
 # Getting started
+Take a look a the directory structure below and then proceed with the instructions on how to setup your first project.
 
 ## Directory Structure
 1. [scss](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss) *(style files)*
@@ -14,8 +15,10 @@ Hybrid front-end/backend boilerplate with **SASS** and **Live Reload**. Works we
 	3. [03-pages](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss/03-pages)
 	4. [04-base](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss/04-base)
 	5. style.scss
-
-2. www *(PHP files)*
+2. js *(unminified JS files)*
+3. www *(PHP files)*
+	* css
+	* js *(minified JS files)*
 	* partials *(your PHP partial files, for ex. head.php, footer.php)*
 	* index.php
 	* contact.php
@@ -61,6 +64,12 @@ Hybrid front-end/backend boilerplate with **SASS** and **Live Reload**. Works we
 	2. Launch the grunt watch task
 	   ``` grunt watch ```
 
+## How to minify files
+	1. Open the project 
+		``` cd project_folder/www ```
+	2. Launch grunt production task
+		``` grunt production ```
+		
 # Author
  Full-stack web developer from Europe - Victor Lava. 
 
@@ -69,7 +78,7 @@ Hybrid front-end/backend boilerplate with **SASS** and **Live Reload**. Works we
 # License
 MIT 
 
-Copyright (c) <2017> <Victor Lava>
+Copyright (c) <2017> <Victor Lava <info@victorlava.com>>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -89,5 +98,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Credits
+# Credits
 Borrowed some ideas from [Gergely Kovács](https://github.com/ggkovacs/architecture-sass-project).
