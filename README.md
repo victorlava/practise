@@ -35,7 +35,7 @@ Hybrid front-end/backend boilerplate with SASS and Live Reload. Works well for s
 	2. [02-partials](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss/02-partials)
 	3. [03-pages](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss/03-pages)
 	4. [04-base](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss/04-base)
-	5. main.scss // Import your SASS files here
+	5. style.scss // Import your SASS files here
 
 3. www (PHP files)
 	1. css (don't touch this, use scss directory instead)
