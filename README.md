@@ -3,17 +3,16 @@ Hybrid front-end/backend boilerplate with SASS and Live Reload. Works well for s
 # Getting started
 
 ## Features
-1. Grunt
-2. SASS
-3. Live Reload
-4. PHP
+* Grunt
+* SASS
+* Live Reload
+* PHP
 
 ## Install global dependencies
-1. Node.js
-2. Grunt.js
-3. PHP (CLI)
-4. Ruby
-5. npm
+1. [Node.js](https://nodejs.org/en/)
+2. [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+4. [Grunt.js](https://gruntjs.com/)
+5. PHP (with working CLI)
 
 ## How to start new project
 1. Open terminal
