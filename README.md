@@ -1,6 +1,12 @@
-Hybrid front-end/backend boilerplate with SASS and Live Reload. Works well for simple websites with a little bit of PHP.
+Hybrid front-end/backend boilerplate with SASS and Live Reload. Works well for simple websites with a little bit of PHP. Includes structured SASS.
 
 # Getting started
+
+## Features
+1. Grunt
+2. SASS
+3. Live Reload
+4. PHP
 
 ## Install global dependencies
 1. Node.js
@@ -20,9 +26,19 @@ Hybrid front-end/backend boilerplate with SASS and Live Reload. Works well for s
 	2. npm install
 	3. grunt watch
 
-3. Open http://localhost:9000/www/index.php on your browser and start working :)
+3. Open http://localhost:9000/www/index.php on your browser
 
-## Features
-1. Grunt
-2. SASS
-3. Live Reload
+## Directory Structure
+1. node_modules (don't touch this)
+
+2. scss (style files)
+	1. 01-components
+	2. 02-partials
+	3. 03-pages
+	4. 04-base
+	5. main.scss // Import your SASS files here
+
+3. www (PHP filess)
+	1. css (don't touch this, use scss directory instead)
+	2. partials (your PHP partial files, for ex. header.php, footer.php)
+	3. index.php (your home page)
