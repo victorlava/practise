@@ -16,12 +16,15 @@ While partials/ and pages/ is kind of macro (defining the global wireframe), com
 since your site is should be mostly composed of tiny modules.
 * _section.scss
 * _navbar.scss
-* _header.scss											  			
+* _heading.scss											  			
 
 # Pages (04-pages)
 If you have page-specific styles, It’s good to put them in a pages/ folder and in a file named after the page. For example, it’s not uncommon to have very specific styles for the home page, so you’d have a _home.scss file in pages/ dealing with this. 
 * _home.scss
-* _article.scss
-* _article-list.scss
+* _about.scss
+* _404.scss
 * _contact.scss
+
+# Vendors (05-vendors)
+
 

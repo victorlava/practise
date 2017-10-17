@@ -37,7 +37,10 @@ Hybrid front-end/backend boilerplate with SASS and Live Reload. Works well for s
 	4. [04-base](https://github.com/victor-lava/front-end-boilerplate/tree/master/scss/04-base)
 	5. main.scss // Import your SASS files here
 
-3. www (PHP/HTML files)
+3. www (PHP files)
 	1. css (don't touch this, use scss directory instead)
-	2. partials (your PHP partial files, for ex. header.php, footer.php)
+	2. partials (your PHP partial files, for ex. head.php, navigation.php, footer.php)
 	3. index.php (your home page)
+	4. contact.php
+	5. about.php
+	6. 404.php (error page)
